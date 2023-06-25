@@ -7,6 +7,9 @@
   pkg-config --cflags  --libs sdl2
    -D_REENTRANT -I/usr/local/include -I/usr/local/include/SDL2 -L/usr/local/lib -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags -lSDL2
   ```
+- Important things to note here is
+  - `-I/usr/local/include/SDL2` i.e the path where the Header files are stored in the system.
+  - `-lSDL2` i.e the lib name you need to use to link the system library in `module.modulemap`
 - Add the above information in the [Package.swift](https://github.com/Santhosh-KS/CSDL2/blob/master/Package.swift) file
 - ```sh
    .systemLibrary(
