@@ -34,5 +34,6 @@
       └── CSDLTests
           └── CSDLTests.swift
   ```
+- [Example repo using this configurations](https://github.com/Santhosh-KS/CSDL2_User)
 
-[reference](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md)
+- [reference](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md)
